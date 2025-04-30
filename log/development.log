@@ -1,0 +1,2014 @@
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:17:47 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::NoDatabaseError (We could not find your database: app_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.7) lib/active_record/connection_adapters/mysql2_adapter.rb:47:in `rescue in new_client'
+activerecord (7.0.7) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.7) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.7) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.7) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.7) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.7) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.7) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.7) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.7) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.7) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:23:34 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::NoDatabaseError (We could not find your database: app_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.7) lib/active_record/connection_adapters/mysql2_adapter.rb:47:in `rescue in new_client'
+activerecord (7.0.7) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.7) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.7) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.7) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.7) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.7) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.7) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.7) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.7) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.7) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:26:16 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::NoDatabaseError (We could not find your database: app_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.7) lib/active_record/connection_adapters/mysql2_adapter.rb:47:in `rescue in new_client'
+activerecord (7.0.7) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.7) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.7) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.7) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.7) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.7) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.7) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.7) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.7) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.7) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.7) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/rails/actions" for 192.168.65.1 at 2025-04-28 14:27:04 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (15.9ms)[0m  [1m[35mCREATE DATABASE `app_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (9.0ms)[0m  [1m[35mCREATE DATABASE `app_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:27:04 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (56.1ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (62.2ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (7.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20231007131745_create_boards.rb
+
+
+):
+  
+activerecord (7.0.7) lib/active_record/migration.rb:627:in `check_pending!'
+activerecord (7.0.7) lib/active_record/migration.rb:592:in `block (2 levels) in call'
+activesupport (7.0.7) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.7) lib/active_record/migration.rb:597:in `block in call'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.7) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.7) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.7) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:27:19 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20231007131745_create_boards.rb
+
+
+):
+  
+activerecord (7.0.7) lib/active_record/migration.rb:627:in `check_pending!'
+activerecord (7.0.7) lib/active_record/migration.rb:592:in `block (2 levels) in call'
+activesupport (7.0.7) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.7) lib/active_record/migration.rb:597:in `block in call'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.7) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.7) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.7) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (24.5ms)[0m  [1m[35mCREATE DATABASE `app_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (8.3ms)[0m  [1m[35mCREATE DATABASE `app_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:28:41 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (9.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20231007131745_create_boards.rb
+
+
+):
+  
+activerecord (7.0.7) lib/active_record/migration.rb:627:in `check_pending!'
+activerecord (7.0.7) lib/active_record/migration.rb:592:in `block (2 levels) in call'
+activesupport (7.0.7) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.7) lib/active_record/migration.rb:597:in `block in call'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.7) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.7) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.7) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.7) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.7) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.7) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.7) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.7) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.7) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/rails/actions" for 192.168.65.1 at 2025-04-28 14:28:46 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT GET_LOCK('5277929974492897470', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateBoards (20231007131745)
+  [1m[35m (57.1ms)[0m  [1m[35mCREATE TABLE `boards` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `author_name` varchar(255), `title` varchar(255), `body` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20231007131745')[0m
+  [1m[36mTRANSACTION (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (3.7ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2025-04-28 14:28:46.748289', '2025-04-28 14:28:46.748289')[0m
+  [1m[36mTRANSACTION (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT RELEASE_LOCK('5277929974492897470')[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:28:46 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.7ms | Allocations: 286)
+Completed 200 OK in 59ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 2836)
+
+
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:28:49 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.4ms | Allocations: 272)
+Completed 200 OK in 16ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 893)
+
+
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:28:50 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 14)
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 206)
+
+
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:28:55 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 14)
+Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 205)
+
+
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:28:56 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 13)
+Completed 200 OK in 7ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 202)
+
+
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:34:24 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 13)
+Completed 200 OK in 7ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 202)
+
+
+Started GET "/" for 192.168.65.1 at 2025-04-28 14:34:26 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 13)
+Completed 200 OK in 8ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 202)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 14:36:08 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 13706.4ms | Allocations: 137257)
+Completed 200 OK in 13722ms (Views: 13713.4ms | ActiveRecord: 0.0ms | Allocations: 138131)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 14:37:55 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 143)
+  Rendered layout layouts/application.html.erb (Duration: 79.0ms | Allocations: 6165)
+Completed 200 OK in 96ms (Views: 86.5ms | ActiveRecord: 0.0ms | Allocations: 6963)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 14:38:03 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 56.2ms | Allocations: 6145)
+Completed 200 OK in 78ms (Views: 66.7ms | ActiveRecord: 0.0ms | Allocations: 6942)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 14:39:22 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 37.6ms | Allocations: 2188)
+  Rendered layout layouts/application.html.erb (Duration: 74.0ms | Allocations: 7743)
+Completed 200 OK in 156ms (Views: 75.9ms | ActiveRecord: 8.8ms | Allocations: 17105)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 14:41:07 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 45.9ms | Allocations: 5703)
+Completed 200 OK in 56ms (Views: 49.0ms | ActiveRecord: 0.0ms | Allocations: 5951)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 14:49:54 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (39.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 976.4ms | Allocations: 42278)
+Completed 200 OK in 1065ms (Views: 995.5ms | ActiveRecord: 0.0ms | Allocations: 46171)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 14:50:08 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 20.6ms | Allocations: 1784)
+  Rendered layout layouts/application.html.erb (Duration: 67.7ms | Allocations: 7328)
+Completed 200 OK in 139ms (Views: 71.1ms | ActiveRecord: 14.7ms | Allocations: 12960)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 14:50:48 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [POST] "/boards"):
+  
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 14:52:13 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 38.2ms | Allocations: 5840)
+Completed 200 OK in 44ms (Views: 40.3ms | ActiveRecord: 0.0ms | Allocations: 6092)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 14:52:18 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 822)
+  Rendered layout layouts/application.html.erb (Duration: 41.0ms | Allocations: 6364)
+Completed 200 OK in 47ms (Views: 43.3ms | ActiveRecord: 0.0ms | Allocations: 6627)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 15:08:07 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (21.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 15:08:08 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  Rendered boards/new.html.erb within layouts/application (Duration: 41.9ms | Allocations: 3316)
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 842)
+  Rendered layout layouts/application.html.erb (Duration: 942.8ms | Allocations: 79799)
+  Rendered layout layouts/application.html.erb (Duration: 865.4ms | Allocations: 74891)
+Completed 200 OK in 1071ms (Views: 971.2ms | ActiveRecord: 9.1ms | Allocations: 89494)
+
+
+Completed 200 OK in 873ms (Views: 868.3ms | ActiveRecord: 0.0ms | Allocations: 75342)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 15:08:11 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 37.3ms | Allocations: 5841)
+Completed 200 OK in 47ms (Views: 39.8ms | ActiveRecord: 0.0ms | Allocations: 6146)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 15:12:08 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 832)
+  Rendered layout layouts/application.html.erb (Duration: 44.8ms | Allocations: 6374)
+Completed 200 OK in 50ms (Views: 46.2ms | ActiveRecord: 0.0ms | Allocations: 6637)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 15:21:35 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"genki\r\n\r\noskos"}, "commit"=>"保存"}
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 15:22:31 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (5.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 27.0ms | Allocations: 2324)
+  Rendered layout layouts/application.html.erb (Duration: 746.0ms | Allocations: 43807)
+Completed 200 OK in 849ms (Views: 760.0ms | ActiveRecord: 9.1ms | Allocations: 53016)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 15:23:12 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"dddd\r\n\r\n\r\ndddd\r\n"}, "commit"=>"保存"}
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 15:23:25 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 15:27:36 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (6.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 39.0ms | Allocations: 2318)
+  Rendered layout layouts/application.html.erb (Duration: 820.9ms | Allocations: 43756)
+Completed 200 OK in 939ms (Views: 834.1ms | ActiveRecord: 10.0ms | Allocations: 52963)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 15:29:35 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (5.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"ss"}, "commit"=>"保存"}
+[31mUnpermitted parameter: :author_name. Context: { controller: BoardsController, action: create, request: #<ActionDispatch::Request:0x00007f34b73b3cb8>, params: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"ss"}, "commit"=>"保存", "controller"=>"boards", "action"=>"create"} }[0m
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 2308)
+
+
+  
+NoMethodError (undefined method `create' for nil:NilClass):
+  
+app/controllers/boards_controller.rb:9:in `create'
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 15:30:57 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 25.6ms | Allocations: 2330)
+  Rendered layout layouts/application.html.erb (Duration: 691.3ms | Allocations: 43721)
+Completed 200 OK in 776ms (Views: 702.1ms | ActiveRecord: 8.0ms | Allocations: 52928)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 15:31:06 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"jjjj"}, "commit"=>"保存"}
+[31mUnpermitted parameter: :author_name. Context: { controller: BoardsController, action: create, request: #<ActionDispatch::Request:0x00007f9f3d8d8400>, params: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"jjjj"}, "commit"=>"保存", "controller"=>"boards", "action"=>"create"} }[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 895)
+
+
+  
+NoMethodError (undefined method `create' for nil:NilClass):
+  
+app/controllers/boards_controller.rb:9:in `create'
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 15:33:28 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"jjjj"}, "commit"=>"保存"}
+[31mUnpermitted parameter: :author_name. Context: { controller: BoardsController, action: create, request: #<ActionDispatch::Request:0x00007f9f3e909c48>, params: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"jjjj"}, "commit"=>"保存", "controller"=>"boards", "action"=>"create"} }[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mBoard Create (6.3ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES (NULL, '明日', 'jjjj', '2025-04-28 15:33:29.206768', '2025-04-28 15:33:29.206768')[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (8.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+[31mUnpermitted parameter: :author_name. Context: { controller: BoardsController, action: create, request: #<ActionDispatch::Request:0x00007f9f3e909c48>, params: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"jjjj"}, "commit"=>"保存", "controller"=>"boards", "action"=>"create"} }[0m
+  [1m[36mBoard Load (0.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+No template found for BoardsController#create, rendering head :no_content
+Completed 204 No Content in 233860ms (ActiveRecord: 22.5ms | Allocations: 151853)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 15:38:17 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (6.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 38.3ms | Allocations: 2312)
+  Rendered layout layouts/application.html.erb (Duration: 914.0ms | Allocations: 43755)
+Completed 200 OK in 1058ms (Views: 942.1ms | ActiveRecord: 10.2ms | Allocations: 52969)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 15:41:26 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"dd"}, "commit"=>"保存"}
+[31mUnpermitted parameter: :author_name. Context: { controller: BoardsController, action: create, request: #<ActionDispatch::Request:0x00007f2bced824e8>, params: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"dd"}, "commit"=>"保存", "controller"=>"boards", "action"=>"create"} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mBoard Create (2.4ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES (NULL, '明日', 'dd', '2025-04-28 15:41:27.579844', '2025-04-28 15:41:27.579844')[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (9.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+[31mUnpermitted parameter: :author_name. Context: { controller: BoardsController, action: create, request: #<ActionDispatch::Request:0x00007f2bced824e8>, params: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"dd"}, "commit"=>"保存", "controller"=>"boards", "action"=>"create"} }[0m
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 15:44:39 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (4.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 23.1ms | Allocations: 2336)
+  Rendered layout layouts/application.html.erb (Duration: 733.3ms | Allocations: 43824)
+Completed 200 OK in 831ms (Views: 748.2ms | ActiveRecord: 6.9ms | Allocations: 53029)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 15:44:47 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"dd"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mBoard Create (3.9ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('悟空', '明日', 'dd', '2025-04-28 15:44:47.862373', '2025-04-28 15:44:47.862373')[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+No template found for BoardsController#create, rendering head :no_content
+Completed 204 No Content in 31ms (ActiveRecord: 10.1ms | Allocations: 3716)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 15:44:52 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"dd"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mBoard Create (1.0ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('悟空', '明日', 'dd', '2025-04-28 15:44:52.760699', '2025-04-28 15:44:52.760699')[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (8.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+No template found for BoardsController#create, rendering head :no_content
+Completed 204 No Content in 27ms (ActiveRecord: 9.9ms | Allocations: 2236)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 15:46:11 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"dd"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mBoard Create (1.0ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('悟空', '明日', 'dd', '2025-04-28 15:46:11.601923', '2025-04-28 15:46:11.601923')[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+No template found for BoardsController#create, rendering head :no_content
+Completed 204 No Content in 34236ms (ActiveRecord: 14.7ms | Allocations: 56216)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-28 15:47:33 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"悟空", "title"=>"明日", "body"=>"dd"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mBoard Create (1.0ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('悟空', '明日', 'dd', '2025-04-28 15:47:33.351651', '2025-04-28 15:47:33.351651')[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (37.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:9:in `create'
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/controllers/boards_controller.rb:12:in `create'
+No template found for BoardsController#create, rendering head :no_content
+Completed 204 No Content in 30015ms (ActiveRecord: 40.7ms | Allocations: 64269)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 15:50:19 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  Rendered boards/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1490)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 1579)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms | Allocations: 2457)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15:     </tr>
+    16:   </thead>
+    17:   <tbody>
+    18:   <% @boards.each do |board| %>
+    19:     <tr>
+    20:       <th><%= board.id %></th>
+    21:       <td><%= board.title%></td>
+  
+app/views/boards/index.html.erb:18
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 15:51:21 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.0ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+  Rendered boards/index.html.erb within layouts/application (Duration: 26.1ms | Allocations: 3148)
+  Rendered layout layouts/application.html.erb (Duration: 97.5ms | Allocations: 16476)
+Completed 200 OK in 117ms (Views: 94.2ms | ActiveRecord: 7.8ms | Allocations: 17533)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 15:52:41 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.7ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+  Rendered boards/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1285)
+  Rendered layout layouts/application.html.erb (Duration: 37.8ms | Allocations: 6990)
+Completed 200 OK in 45ms (Views: 40.3ms | ActiveRecord: 0.7ms | Allocations: 7249)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 15:53:21 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (6.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (2.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+  Rendered boards/index.html.erb within layouts/application (Duration: 50.3ms | Allocations: 6799)
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 15:53:22 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 22.3ms | Allocations: 1856)
+  Rendered layout layouts/application.html.erb (Duration: 761.9ms | Allocations: 72219)
+Completed 200 OK in 772ms (Views: 765.3ms | ActiveRecord: 0.0ms | Allocations: 72710)
+
+
+  Rendered layout layouts/application.html.erb (Duration: 1004.8ms | Allocations: 85566)
+Completed 200 OK in 1082ms (Views: 1014.1ms | ActiveRecord: 10.8ms | Allocations: 90884)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 15:53:24 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.0ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+  Rendered boards/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1290)
+  Rendered layout layouts/application.html.erb (Duration: 40.7ms | Allocations: 7004)
+Completed 200 OK in 46ms (Views: 41.4ms | ActiveRecord: 1.0ms | Allocations: 7270)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 16:01:43 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (5.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (2.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___895352509760292223_22960 at /app/app/views/boards/index.html.erb:24)
+  Rendered boards/index.html.erb within layouts/application (Duration: 86.4ms | Allocations: 7999)
+  Rendered layout layouts/application.html.erb (Duration: 1040.6ms | Allocations: 49714)
+Completed 200 OK in 1106ms (Views: 1038.5ms | ActiveRecord: 16.2ms | Allocations: 54223)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 16:03:19 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (6.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (3.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+  Rendered boards/index.html.erb within layouts/application (Duration: 122.0ms | Allocations: 7999)
+  Rendered layout layouts/application.html.erb (Duration: 1054.5ms | Allocations: 49914)
+Completed 200 OK in 1192ms (Views: 1057.3ms | ActiveRecord: 15.8ms | Allocations: 54423)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 16:03:30 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datatime_jp) is deprecated. Please use TimeWithZone#to_fs(:datatime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_22960 at /app/app/views/boards/index.html.erb:24)
+  Rendered boards/index.html.erb within layouts/application (Duration: 32.1ms | Allocations: 2550)
+  Rendered layout layouts/application.html.erb (Duration: 69.9ms | Allocations: 8243)
+Completed 200 OK in 77ms (Views: 71.4ms | ActiveRecord: 1.4ms | Allocations: 8510)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-28 16:03:48 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 36.4ms | Allocations: 8737)
+  Rendered layout layouts/application.html.erb (Duration: 111.0ms | Allocations: 14573)
+Completed 200 OK in 126ms (Views: 119.6ms | ActiveRecord: 0.0ms | Allocations: 15425)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-28 16:03:49 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb___418583753806477776_23660 at /app/app/views/boards/index.html.erb:24)
+  Rendered boards/index.html.erb within layouts/application (Duration: 32.8ms | Allocations: 2777)
+  Rendered layout layouts/application.html.erb (Duration: 67.9ms | Allocations: 8505)
+Completed 200 OK in 75ms (Views: 69.3ms | ActiveRecord: 0.8ms | Allocations: 8826)
+
+
+Started GET "/boards/show/3" for 192.168.65.1 at 2025-04-29 04:36:21 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (4.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/boards/show/3"):
+  
+Started GET "/boards/show/3" for 192.168.65.1 at 2025-04-29 04:37:19 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/boards/show/3"):
+  
+Started GET "/boards/show/3" for 192.168.65.1 at 2025-04-29 04:37:22 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/boards/show/3"):
+  
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 04:39:24 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (4.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (2.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_23100 at /app/app/views/boards/index.html.erb:24)
+  Rendered boards/index.html.erb within layouts/application (Duration: 58.7ms | Allocations: 7978)
+  Rendered layout layouts/application.html.erb (Duration: 643.7ms | Allocations: 50035)
+Completed 200 OK in 694ms (Views: 645.0ms | ActiveRecord: 10.3ms | Allocations: 54544)
+
+
+Started GET "/boards/show" for 192.168.65.1 at 2025-04-29 04:39:33 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mBoard Load (0.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = NULL LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:13:in `show'
+Completed 404 Not Found in 11ms (ActiveRecord: 0.8ms | Allocations: 2591)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Board with 'id'=show):
+  
+app/controllers/boards_controller.rb:13:in `show'
+Started GET "/boards/show/3" for 192.168.65.1 at 2025-04-29 04:39:42 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/boards/show/3"):
+  
+Started GET "/boards/3" for 192.168.65.1 at 2025-04-29 04:44:41 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 188)
+  Rendered layout layouts/application.html.erb (Duration: 46.4ms | Allocations: 13321)
+Completed 200 OK in 77ms (Views: 51.9ms | ActiveRecord: 5.2ms | Allocations: 17205)
+
+
+Started GET "/boards/3" for 192.168.65.1 at 2025-04-29 04:45:09 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 172)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 6131)
+Completed 200 OK in 35ms (Views: 26.8ms | ActiveRecord: 0.5ms | Allocations: 7418)
+
+
+Started GET "/boards/3" for 192.168.65.1 at 2025-04-29 05:31:40 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (0.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 324)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 6298)
+Completed 200 OK in 36ms (Views: 26.2ms | ActiveRecord: 1.0ms | Allocations: 7709)
+
+
+Started GET "/boards/3" for 192.168.65.1 at 2025-04-29 05:31:41 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 5941)
+Completed 200 OK in 32ms (Views: 27.2ms | ActiveRecord: 0.5ms | Allocations: 6684)
+
+
+Started GET "/rails/info/routes" for 192.168.65.1 at 2025-04-29 05:33:58 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/layouts/application.html.erb
+  Rendering /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /usr/local/bundle/gems/actionpack-7.0.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb [38 times] (Duration: 11.2ms | Allocations: 6063)
+  Rendered /usr/local/bundle/gems/actionpack-7.0.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 2.0ms | Allocations: 886)
+  Rendered /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 20.3ms | Allocations: 10741)
+  Rendered layout /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/layouts/application.html.erb (Duration: 23.3ms | Allocations: 11022)
+Completed 200 OK in 33ms (Views: 26.6ms | ActiveRecord: 0.0ms | Allocations: 11898)
+
+
+Started GET "/rails/info/routes" for 192.168.65.1 at 2025-04-29 05:35:04 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/layouts/application.html.erb
+  Rendering /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /usr/local/bundle/gems/actionpack-7.0.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (Duration: 10.2ms | Allocations: 5463)
+  Rendered /usr/local/bundle/gems/actionpack-7.0.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 2.0ms | Allocations: 884)
+  Rendered /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 18.1ms | Allocations: 9823)
+  Rendered layout /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/layouts/application.html.erb (Duration: 20.3ms | Allocations: 10101)
+Completed 200 OK in 26ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 10868)
+
+
+Started GET "/rails/info/routes?path=boards" for 192.168.65.1 at 2025-04-29 05:35:15 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"boards"}
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1845)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 05:39:05 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__3742406357290358498_47780 at /app/app/views/boards/index.html.erb:24)
+  Rendered boards/index.html.erb within layouts/application (Duration: 27.7ms | Allocations: 4655)
+  Rendered layout layouts/application.html.erb (Duration: 69.7ms | Allocations: 17966)
+Completed 200 OK in 84ms (Views: 67.6ms | ActiveRecord: 5.8ms | Allocations: 19394)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 06:46:23 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (6.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+  Rendered boards/index.html.erb within layouts/application (Duration: 39.8ms | Allocations: 8167)
+  Rendered layout layouts/application.html.erb (Duration: 441.3ms | Allocations: 50056)
+Completed 200 OK in 483ms (Views: 443.1ms | ActiveRecord: 7.2ms | Allocations: 54565)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 06:46:32 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.7ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+  Rendered boards/index.html.erb within layouts/application (Duration: 18.3ms | Allocations: 2587)
+  Rendered layout layouts/application.html.erb (Duration: 37.0ms | Allocations: 8303)
+Completed 200 OK in 42ms (Views: 37.7ms | ActiveRecord: 0.7ms | Allocations: 8570)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 06:48:06 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+  Rendered boards/index.html.erb within layouts/application (Duration: 22.2ms | Allocations: 2586)
+  Rendered layout layouts/application.html.erb (Duration: 50.7ms | Allocations: 8341)
+Completed 200 OK in 55ms (Views: 50.7ms | ActiveRecord: 1.2ms | Allocations: 8608)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 06:48:07 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+  Rendered boards/index.html.erb within layouts/application (Duration: 20.1ms | Allocations: 2586)
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 8326)
+Completed 200 OK in 44ms (Views: 40.5ms | ActiveRecord: 0.6ms | Allocations: 8592)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 06:48:09 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:18
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:23)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23080 at /app/app/views/boards/index.html.erb:24)
+  Rendered boards/index.html.erb within layouts/application (Duration: 18.4ms | Allocations: 2582)
+  Rendered layout layouts/application.html.erb (Duration: 37.5ms | Allocations: 8292)
+Completed 200 OK in 41ms (Views: 37.9ms | ActiveRecord: 0.6ms | Allocations: 8552)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 06:49:41 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 22.2ms | Allocations: 3230)
+  Rendered layout layouts/application.html.erb (Duration: 56.9ms | Allocations: 9226)
+Completed 200 OK in 68ms (Views: 62.3ms | ActiveRecord: 0.5ms | Allocations: 10045)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-29 06:49:48 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 18.7ms | Allocations: 8654)
+  Rendered layout layouts/application.html.erb (Duration: 36.7ms | Allocations: 14196)
+Completed 200 OK in 42ms (Views: 38.0ms | ActiveRecord: 0.0ms | Allocations: 14550)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 06:49:50 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 53.7ms | Allocations: 2870)
+  Rendered layout layouts/application.html.erb (Duration: 71.3ms | Allocations: 8582)
+Completed 200 OK in 94ms (Views: 90.7ms | ActiveRecord: 0.8ms | Allocations: 8843)
+
+
+Started GET "/boards/1" for 192.168.65.1 at 2025-04-29 06:49:52 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (0.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 2.8ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 6201)
+Completed 200 OK in 35ms (Views: 22.3ms | ActiveRecord: 0.8ms | Allocations: 8708)
+
+
+Started GET "/boards/3" for 192.168.65.1 at 2025-04-29 06:49:57 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 5885)
+Completed 200 OK in 34ms (Views: 27.3ms | ActiveRecord: 0.5ms | Allocations: 6628)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-29 06:50:00 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 836)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 6399)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 6662)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-29 06:50:09 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"加藤", "title"=>"モンスター", "body"=>""}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mBoard Create (2.2ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('加藤', 'モンスター', '', '2025-04-29 06:50:09.737699', '2025-04-29 06:50:09.737699')[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mTRANSACTION (5.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+No template found for BoardsController#create, rendering head :no_content
+Completed 204 No Content in 25ms (ActiveRecord: 7.9ms | Allocations: 3596)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-29 06:50:23 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"加藤", "title"=>"モンスター", "body"=>"明日もよろしくねお\r\n毎日\r\n\r\n戦おう"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mBoard Create (1.7ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('加藤', 'モンスター', '明日もよろしくねお\r\n毎日\r\n\r\n戦おう', '2025-04-29 06:50:23.881719', '2025-04-29 06:50:23.881719')[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mTRANSACTION (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+No template found for BoardsController#create, rendering head :no_content
+Completed 204 No Content in 27ms (ActiveRecord: 8.0ms | Allocations: 2225)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 06:50:25 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.7ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_23840 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 25.4ms | Allocations: 3622)
+  Rendered layout layouts/application.html.erb (Duration: 48.6ms | Allocations: 9347)
+Completed 200 OK in 53ms (Views: 49.2ms | ActiveRecord: 0.7ms | Allocations: 9610)
+
+
+Started GET "/boards/8" for 192.168.65.1 at 2025-04-29 06:50:28 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 5877)
+Completed 200 OK in 31ms (Views: 24.2ms | ActiveRecord: 0.5ms | Allocations: 6619)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-29 06:51:38 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1237)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 7051)
+Completed 200 OK in 35ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 7865)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 06:51:40 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_24480 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 28.4ms | Allocations: 3905)
+  Rendered layout layouts/application.html.erb (Duration: 47.7ms | Allocations: 9602)
+Completed 200 OK in 53ms (Views: 48.0ms | ActiveRecord: 0.8ms | Allocations: 9917)
+
+
+Started GET "/boards/edit/1" for 192.168.65.1 at 2025-04-29 06:56:43 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/boards/edit/1"):
+  
+Started GET "/boards/1/edit" for 192.168.65.1 at 2025-04-29 06:56:56 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:19:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/edit.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1377)
+  Rendered layout layouts/application.html.erb (Duration: 49.8ms | Allocations: 14515)
+Completed 200 OK in 82ms (Views: 55.7ms | ActiveRecord: 5.3ms | Allocations: 18657)
+
+
+Started PATCH "/boards/1" for 192.168.65.1 at 2025-04-29 06:57:06 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"まさか", "title"=>"明日", "body"=>"jjjj"}, "commit"=>"保存", "id"=>"1"}
+  [1m[36mBoard Load (0.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:23:in `update'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:24:in `update'
+  [1m[36mBoard Update (1.0ms)[0m  [1m[33mUPDATE `boards` SET `boards`.`author_name` = 'まさか', `boards`.`updated_at` = '2025-04-29 06:57:06.799008' WHERE `boards`.`id` = 1[0m
+  ↳ app/controllers/boards_controller.rb:24:in `update'
+  [1m[36mTRANSACTION (6.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:24:in `update'
+Redirected to http://localhost:3000/boards/1
+Completed 302 Found in 29ms (ActiveRecord: 8.6ms | Allocations: 3122)
+
+
+Started GET "/boards/1" for 192.168.65.1 at 2025-04-29 06:57:06 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 391)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 6074)
+Completed 200 OK in 30ms (Views: 22.7ms | ActiveRecord: 0.5ms | Allocations: 6869)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 06:57:11 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.7ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_32800 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 28.1ms | Allocations: 3929)
+  Rendered layout layouts/application.html.erb (Duration: 45.5ms | Allocations: 9632)
+Completed 200 OK in 51ms (Views: 46.3ms | ActiveRecord: 0.7ms | Allocations: 9947)
+
+
+Started GET "/rails/info/routes" for 192.168.65.1 at 2025-04-29 06:59:59 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/layouts/application.html.erb
+  Rendering /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /usr/local/bundle/gems/actionpack-7.0.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb [37 times] (Duration: 12.7ms | Allocations: 5914)
+  Rendered /usr/local/bundle/gems/actionpack-7.0.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 2.0ms | Allocations: 885)
+  Rendered /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 21.7ms | Allocations: 10516)
+  Rendered layout /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/layouts/application.html.erb (Duration: 24.6ms | Allocations: 10797)
+Completed 200 OK in 30ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 11674)
+
+
+Started GET "/rails/info/routes" for 192.168.65.1 at 2025-04-29 07:00:04 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/layouts/application.html.erb
+  Rendering /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /usr/local/bundle/gems/actionpack-7.0.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb [37 times] (Duration: 11.2ms | Allocations: 5911)
+  Rendered /usr/local/bundle/gems/actionpack-7.0.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 2.0ms | Allocations: 884)
+  Rendered /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 20.4ms | Allocations: 10499)
+  Rendered layout /usr/local/bundle/gems/railties-7.0.7/lib/rails/templates/layouts/application.html.erb (Duration: 22.8ms | Allocations: 10776)
+Completed 200 OK in 30ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 11541)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 07:01:02 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 33.6ms | Allocations: 5695)
+  Rendered layout layouts/application.html.erb (Duration: 71.3ms | Allocations: 19009)
+Completed 200 OK in 88ms (Views: 71.2ms | ActiveRecord: 5.2ms | Allocations: 20437)
+
+
+Started GET "/boards/1" for 192.168.65.1 at 2025-04-29 07:01:05 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 478)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 6167)
+Completed 200 OK in 28ms (Views: 21.1ms | ActiveRecord: 0.5ms | Allocations: 7563)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 07:01:08 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 26.1ms | Allocations: 3625)
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 9322)
+Completed 200 OK in 48ms (Views: 44.9ms | ActiveRecord: 0.8ms | Allocations: 9582)
+
+
+Started GET "/boards/3" for 192.168.65.1 at 2025-04-29 07:01:11 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (0.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 6074)
+Completed 200 OK in 31ms (Views: 23.9ms | ActiveRecord: 0.6ms | Allocations: 6816)
+
+
+Started GET "/boards/3/edit" for 192.168.65.1 at 2025-04-29 07:01:14 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:19:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/edit.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1314)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 6875)
+Completed 200 OK in 31ms (Views: 23.4ms | ActiveRecord: 0.5ms | Allocations: 7672)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 07:01:17 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 25.0ms | Allocations: 3625)
+  Rendered layout layouts/application.html.erb (Duration: 44.7ms | Allocations: 9311)
+Completed 200 OK in 49ms (Views: 45.5ms | ActiveRecord: 0.6ms | Allocations: 9572)
+
+
+Started GET "/boards/1" for 192.168.65.1 at 2025-04-29 07:01:19 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 257)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 5953)
+Completed 200 OK in 30ms (Views: 23.9ms | ActiveRecord: 0.5ms | Allocations: 6694)
+
+
+Started GET "/boards/1/edit" for 192.168.65.1 at 2025-04-29 07:01:21 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (0.9ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:19:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/edit.html.erb within layouts/application (Duration: 3.1ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 6487)
+Completed 200 OK in 31ms (Views: 25.2ms | ActiveRecord: 0.9ms | Allocations: 7228)
+
+
+Started PATCH "/boards/1" for 192.168.65.1 at 2025-04-29 07:01:28 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"まさか", "title"=>"明日", "body"=>"jjjj\r\n\r\nfqwekqjt'kq\r\nljhlktq\r\n\r\n\r\nejtkqejqiw4k"}, "commit"=>"保存", "id"=>"1"}
+  [1m[36mBoard Load (0.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:23:in `update'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:24:in `update'
+  [1m[36mBoard Update (0.7ms)[0m  [1m[33mUPDATE `boards` SET `boards`.`body` = 'jjjj\r\n\r\nfqwekqjt\'kq\r\nljhlktq\r\n\r\n\r\nejtkqejqiw4k', `boards`.`updated_at` = '2025-04-29 07:01:28.246687' WHERE `boards`.`id` = 1[0m
+  ↳ app/controllers/boards_controller.rb:24:in `update'
+  [1m[36mTRANSACTION (8.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:24:in `update'
+Redirected to http://localhost:3000/boards/1
+Completed 302 Found in 36ms (ActiveRecord: 10.9ms | Allocations: 2986)
+
+
+Started GET "/boards/1" for 192.168.65.1 at 2025-04-29 07:01:28 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBoard Load (0.7ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:15:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 298)
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 6020)
+Completed 200 OK in 39ms (Views: 31.0ms | ActiveRecord: 0.7ms | Allocations: 6762)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 07:01:32 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.8ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 25.7ms | Allocations: 3625)
+  Rendered layout layouts/application.html.erb (Duration: 46.2ms | Allocations: 9372)
+Completed 200 OK in 50ms (Views: 46.6ms | ActiveRecord: 0.8ms | Allocations: 9633)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-29 07:01:38 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1172)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 6715)
+Completed 200 OK in 27ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 7042)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-29 07:01:45 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"tqwke", "title"=>"tew3", "body"=>"tej3"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mBoard Create (0.9ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('tqwke', 'tew3', 'tej3', '2025-04-29 07:01:45.961688', '2025-04-29 07:01:45.961688')[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mTRANSACTION (5.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+No template found for BoardsController#create, rendering head :no_content
+Completed 204 No Content in 27ms (ActiveRecord: 6.7ms | Allocations: 2474)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 07:01:48 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 26.6ms | Allocations: 4001)
+  Rendered layout layouts/application.html.erb (Duration: 44.7ms | Allocations: 9719)
+Completed 200 OK in 49ms (Views: 45.7ms | ActiveRecord: 0.6ms | Allocations: 9979)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-29 07:02:07 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 989)
+  Rendered layout layouts/application.html.erb (Duration: 47.4ms | Allocations: 13866)
+Completed 200 OK in 68ms (Views: 50.1ms | ActiveRecord: 4.5ms | Allocations: 16578)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-29 07:02:15 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"加藤", "title"=>"tew3", "body"=>"dfakljt'ew"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mBoard Create (1.0ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('加藤', 'tew3', 'dfakljt\'ew', '2025-04-29 07:02:15.803054', '2025-04-29 07:02:15.803054')[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mTRANSACTION (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 7.8ms | Allocations: 2703)
+
+
+  
+NameError (undefined local variable or method `board' for #<BoardsController:0x00000000018268>):
+  
+app/controllers/boards_controller.rb:12:in `create'
+Started POST "/boards" for 192.168.65.1 at 2025-04-29 07:02:35 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"加藤", "title"=>"tew3", "body"=>"dfakljt'ew"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mBoard Create (1.3ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('加藤', 'tew3', 'dfakljt\'ew', '2025-04-29 07:02:35.726631', '2025-04-29 07:02:35.726631')[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mTRANSACTION (5.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+Redirected to http://localhost:3000/boards
+Completed 302 Found in 34ms (ActiveRecord: 11.1ms | Allocations: 4609)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 07:02:35 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_41080 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 34.2ms | Allocations: 4857)
+  Rendered layout layouts/application.html.erb (Duration: 69.0ms | Allocations: 17965)
+Completed 200 OK in 74ms (Views: 70.6ms | ActiveRecord: 0.6ms | Allocations: 18490)
+
+
+Started GET "/boards/new" for 192.168.65.1 at 2025-04-29 07:19:44 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/new.html.erb within layouts/application
+  Rendered boards/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1240)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 7178)
+Completed 200 OK in 38ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 7995)
+
+
+Started POST "/boards" for 192.168.65.1 at 2025-04-29 07:20:03 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"miku", "title"=>"明日", "body"=>"ネイル行きたいから午後開けておいて"}, "commit"=>"保存"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mBoard Create (1.2ms)[0m  [1m[32mINSERT INTO `boards` (`author_name`, `title`, `body`, `created_at`, `updated_at`) VALUES ('miku', '明日', 'ネイル行きたいから午後開けておいて', '2025-04-29 07:20:03.045937', '2025-04-29 07:20:03.045937')[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:11:in `create'
+Redirected to http://localhost:3000/boards
+Completed 302 Found in 31ms (ActiveRecord: 9.2ms | Allocations: 2341)
+
+
+Started GET "/boards" for 192.168.65.1 at 2025-04-29 07:20:03 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mBoard Load (0.9ms)[0m  [1m[34mSELECT `boards`.* FROM `boards`[0m
+  ↳ app/views/boards/index.html.erb:19
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:24)
+DEPRECATION WARNING: TimeWithZone#to_s(:datetime_jp) is deprecated. Please use TimeWithZone#to_fs(:datetime_jp) instead. (called from block in _app_views_boards_index_html_erb__590758062716201088_57720 at /app/app/views/boards/index.html.erb:25)
+  Rendered boards/index.html.erb within layouts/application (Duration: 43.1ms | Allocations: 5410)
+  Rendered layout layouts/application.html.erb (Duration: 61.9ms | Allocations: 11189)
+Completed 200 OK in 70ms (Views: 63.0ms | ActiveRecord: 0.9ms | Allocations: 11506)
+
+
+Started GET "/boards/12" for 192.168.65.1 at 2025-04-29 07:20:07 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mBoard Load (0.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 4.1ms | Allocations: 461)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 6168)
+Completed 200 OK in 33ms (Views: 25.1ms | ActiveRecord: 0.6ms | Allocations: 7561)
+
+
+Started GET "/boards/12/edit" for 192.168.65.1 at 2025-04-29 07:20:11 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mBoard Load (0.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:20:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/edit.html.erb within layouts/application
+  Rendered boards/edit.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1243)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 6777)
+Completed 200 OK in 34ms (Views: 26.3ms | ActiveRecord: 0.6ms | Allocations: 7573)
+
+
+Started PATCH "/boards/12" for 192.168.65.1 at 2025-04-29 07:20:17 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "board"=>{"author_name"=>"miku", "title"=>"明日", "body"=>"ネイル行きたいから午後開けておいて\r\n\r\n\r\nがだ"}, "commit"=>"保存", "id"=>"12"}
+  [1m[36mBoard Load (1.1ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:24:in `update'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/boards_controller.rb:25:in `update'
+  [1m[36mBoard Update (4.7ms)[0m  [1m[33mUPDATE `boards` SET `boards`.`body` = 'ネイル行きたいから午後開けておいて\r\n\r\n\r\nがだ', `boards`.`updated_at` = '2025-04-29 07:20:17.076584' WHERE `boards`.`id` = 12[0m
+  ↳ app/controllers/boards_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/boards_controller.rb:25:in `update'
+Redirected to http://localhost:3000/boards/12
+Completed 302 Found in 38ms (ActiveRecord: 13.4ms | Allocations: 2887)
+
+
+Started GET "/boards/12" for 192.168.65.1 at 2025-04-29 07:20:17 +0000
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mBoard Load (0.6ms)[0m  [1m[34mSELECT `boards`.* FROM `boards` WHERE `boards`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/boards_controller.rb:16:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering boards/show.html.erb within layouts/application
+  Rendered boards/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 5960)
+Completed 200 OK in 31ms (Views: 23.7ms | ActiveRecord: 0.6ms | Allocations: 6701)
+
+
