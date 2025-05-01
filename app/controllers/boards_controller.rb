@@ -11,7 +11,7 @@ class BoardsController < ApplicationController
     Board.create(board_params)
     redirect_to boards_path
   end
-  
+
   def show
     @board = Board.find(params[:id])
   end
@@ -25,7 +25,13 @@ class BoardsController < ApplicationController
     board.update(board_params)
     redirect_to board
   end
-  
+
+  def destroy
+    board = Board.find(params[:id])
+    board.destroy
+    redirect_to boards_path
+  end
+
   private
   def board_params
     params.require(:board).permit(:author_name,:title, :body)
